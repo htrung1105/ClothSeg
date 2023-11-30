@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ClothSeg", "ClothSeg.pyproj", "{8CE43C05-CA8A-4CCD-ACF1-797FFF3E9D69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE43C05-CA8A-4CCD-ACF1-797FFF3E9D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE43C05-CA8A-4CCD-ACF1-797FFF3E9D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44BDE895-5287-4CFD-A355-ED5176FAC47D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8ce43c05-ca8a-4ccd-acf1-797fff3e9d69</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ClothSeg.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ClothSeg</Name>
+    <RootNamespace>ClothSeg</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ClothSeg.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="image\" />
+    <Folder Include="mask\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\01260_00.jpg" />
+    <Content Include="image\01430_00.jpg" />
+    <Content Include="image\02783_00.jpg" />
+    <Content Include="image\03751_00.jpg" />
+    <Content Include="image\06429_00.jpg" />
+    <Content Include="image\06802_00.jpg" />
+    <Content Include="image\07429_00.jpg" />
+    <Content Include="image\08348_00.jpg" />
+    <Content Include="image\09933_00.jpg" />
+    <Content Include="image\11028_00.jpg" />
+    <Content Include="image\11351_00.jpg" />
+    <Content Include="image\11791_00.jpg" />
+    <Content Include="mask\01260_00_mask.jpg" />
+    <Content Include="mask\01430_00_mask.jpg" />
+    <Content Include="mask\02783_00_mask.jpg" />
+    <Content Include="mask\03751_00_mask.jpg" />
+    <Content Include="mask\06429_00_mask.jpg" />
+    <Content Include="mask\06802_00_mask.jpg" />
+    <Content Include="mask\07429_00_mask.jpg" />
+    <Content Include="mask\08348_00_mask.jpg" />
+    <Content Include="mask\09933_00_mask.jpg" />
+    <Content Include="mask\11028_00_mask.jpg" />
+    <Content Include="mask\11351_00_mask.jpg" />
+    <Content Include="mask\11791_00_mask.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
